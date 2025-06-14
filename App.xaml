@@ -1,0 +1,13 @@
+﻿<Application x:Class="Marathone.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Marathone"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <Style TargetType="Window" x:Key="win1">
+            <!--<Setter Property="Icon" Value=""/>-->
+            <Setter Property="ResizeMode" Value="NoResize"/>
+
+        </Style>
+    </Application.Resources>
+</Application>

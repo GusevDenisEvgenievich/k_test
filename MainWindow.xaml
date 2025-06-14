@@ -1,0 +1,18 @@
+﻿<Window x:Class="Marathone.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Marathone"
+        mc:Ignorable="d"
+        Title="Авторизация" Height="450" Width="800"
+        Style="{StaticResource win1}">
+    <Canvas>
+        <TextBlock Text="Логин" Canvas.Left="344" Canvas.Top="107"/>
+        <TextBox Margin="394,100,300,291" Width="100" Height="30" />
+        <Button Content="Войти" Width="85" Height="25" Canvas.Left="367" Canvas.Top="215"/>
+        <TextBlock Text="Пароль" Canvas.Left="345" Canvas.Top="144"/>
+        <TextBox Width="100" Height="30" Canvas.Left="395" Canvas.Top="137" />
+        <Button Content="Регистрация" Width="85" Height="25" Canvas.Left="367" Canvas.Top="244"/>
+    </Canvas>
+</Window>
